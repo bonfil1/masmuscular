@@ -1,0 +1,38 @@
+/**
+ * Breadcrumbs
+ */
+.woocommerce-breadcrumb {
+	font-size: .857em;
+	padding: 1em 0;
+	background-color: #191919;
+	padding: 11px 0;
+	color: #FFF;
+	font-size: 18px;
+	line-height: 36px;
+	font-family: $title-font-family;
+    text-transform: uppercase;
+    font-weight: $oswald-normal;
+
+	a{
+  		color: #626262;
+
+  		@include hoverActiveFocus(){
+  			color: lighten( #626262, 20% );
+  		}
+	}
+
+	.delimiter{
+		color: #626262;
+		padding: 0 6px;
+		display: inline-block;
+	}
+
+	a.home {
+		&:before {
+			content: "\f015";
+			font-family: "FontAwesome";
+			font-weight: 400;
+			margin-#{$end}: .53em;
+		}
+	}
+}

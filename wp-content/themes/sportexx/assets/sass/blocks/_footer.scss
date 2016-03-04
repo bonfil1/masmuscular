@@ -1,0 +1,226 @@
+/*===================================================================================*/
+/*	FOOTER
+/*===================================================================================*/
+
+footer {
+	.wpb_row {
+		margin-bottom: 0;
+	}
+}
+
+.block-social{
+	border-top: 1px solid #D6D6D6;
+	padding: 20px 0;
+	position: relative;
+
+	.container{
+		display: table;
+	}
+
+	.mc4wp-form{
+		margin: 0;
+	}
+
+	&:before{
+		border-#{$end}: 1px solid #2E2E2E;
+		content: "";
+		height: 83px;
+		position: absolute;
+		#{$start}: 55%;
+		width: 2px;
+		top: -5px;
+
+		transform: rotate(29deg);
+		-ms-transform: rotate(29deg); /* IE 9 */
+		-webkit-transform: rotate(29deg); /* Chrome, Safari, Opera */
+	}
+}
+
+.form-newsletter{
+	display: table-cell;
+	vertical-align: middle;
+
+	label{
+		font-size: 14px;
+		color: #707070;
+		margin-#{$end}: 20px;
+		float: $start;
+		font-weight: normal;
+		font-style: italic;
+		line-height: 2 !important;
+		letter-spacing: .025em;
+	}
+
+	.input-email{
+		width: 330px !important;
+  		padding: 5px 12px;
+  		font-style: italic;
+	}
+
+	.btn-submit{
+		margin-#{$start}: 3px;
+		padding: 0 11px;
+
+		.icon-submit{
+			&:before{
+				content: dir-check("\f105","\f104");
+				font-family: FontAwesome;
+				font-size: 22px;
+				display: inline-block;
+			}
+		}
+	}
+
+
+}
+
+footer.default-bg{
+	.form-group{
+		input[type="email"]{
+			&:focus{
+	            box-shadow: none !important;
+	            border: 1px solid #9d9d9d !important;
+	        }
+		}
+	}
+}
+
+.list-social-icons{
+	text-align: $end;
+	margin-bottom: 0;
+	display: table-cell;
+	vertical-align: middle;
+
+	> li{
+		display: inline-block;
+		margin-#{$end}: 40px;
+
+		&:last-child{
+			margin-#{$end}: 0;
+		}
+
+		> a{
+			color: #C1C1C1;
+			font-size: 25px;
+
+			&:hover{
+				color: darken( #C1C1C1, 20%);
+			}
+		}
+	}
+}
+
+.footer-widgets{
+	border-top: 4px solid #4C4C4C;
+
+	.footer-widget{
+		
+		.widget-title, .widgettitle{
+			font-size: 18px;
+			line-height: 36px;
+			letter-spacing: 0.050em;
+			color: #454545;
+			margin-bottom: 15px;
+			margin-top: 10px;
+		}
+
+		.menu, .list-links, .widgettitle + ul, .widgettitle + ul ul, .children, .sub-menu {
+			padding-#{$start}: 0;
+			list-style: none;
+			margin: 0;
+
+			> li {
+				> a{
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 24px;
+					color: #333333;
+					display: block;
+					letter-spacing: 0.025em;
+				}
+			}
+		}
+
+		.mail-to,
+		.tel-to,
+		address{
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 24px;
+			color: #333333;
+			display:block;
+		}
+
+		address{
+			margin-top: 35px;
+		}
+	}
+}
+
+.site-info{
+	background: #F7F7F7;
+	padding: 10px 0px;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 36px;
+	letter-spacing:0.025em;
+
+	.copyright{
+		color: #777373;
+		
+		a{
+			color: #777373;
+			text-transform:uppercase;
+		}
+	}
+
+	.quick-links{
+		padding-#{$start}: 0;
+		list-style: none;
+
+		> li{
+			float: $start;
+			margin-#{$end}: 23px;
+			
+			> a{
+				color: #616161;
+				display: block;
+			}
+			
+			&:last-child{
+				margin-#{$end}: 0;
+			}
+		}
+	}
+}
+
+@include with-layout($bootstrap-settings) {
+	.footer-widgets {
+		.column-5 {
+			@include gallery( 5 of 10 );
+		}
+	}
+}
+
+.payment-methods {
+	text-align: center;
+
+	ul {
+		list-style: none;
+		padding: 0;	
+		font-size: 0;
+		margin: 0;
+		line-height: 1;
+
+		> li {
+			font-size: 14px;
+			display: inline-block;
+			width: 50px;
+			background-color: #fff;
+			border-radius: 2px;
+			text-align: center;
+			padding: 0px 5px;
+			margin: 0 3px;
+		}
+	}
+}

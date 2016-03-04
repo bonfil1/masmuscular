@@ -1,0 +1,72 @@
+/*===================================================================================*/
+/*	TABLE COMPARE
+/*===================================================================================*/
+.table-compare{
+
+	tr:nth-child(2n), tr {
+		th, td {
+			background-color: transparent;
+		}
+	}
+
+	> tbody{
+		> tr{
+			> th{
+				color: #414040;
+				font-size: 18px;
+		  		width: 26%;
+		  		vertical-align: middle;
+			}
+		}
+	}
+
+	> tbody{
+		> tr{
+			&:first-child{
+				> td, > th{
+					border-top: none;
+				}
+			}
+			> td, > th{
+				padding: 15px 10px;
+			}
+		}
+	}
+
+	.product{
+		text-align: center;
+	}
+
+	.product-title{
+		font-size: 16px;
+		font-weight: $oswald-light;
+		margin-bottom: 5px;
+		a{
+			color: #787878;
+		}
+	}
+
+	.product-image{
+		text-align: center;
+		display: inline-block;
+
+		.image{
+			display: table-cell;
+			vertical-align: middle;
+			height: inherit;
+		}
+	}
+
+	.star-rating{
+		display: inline-block;
+		text-align: center;
+		margin-top: 16px;
+	}
+
+	.remove-icon{
+		font-size: 20px;
+		color: #232323;
+		display: block;
+		margin-top: 25px;
+	}
+}

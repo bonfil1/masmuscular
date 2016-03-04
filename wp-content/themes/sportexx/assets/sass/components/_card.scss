@@ -1,0 +1,219 @@
+/*===================================================================================*/
+/*	ISOTOPE BANNERS
+/*===================================================================================*/
+
+.card{
+	text-transform: uppercase;
+	font-family: $title-font-family;
+
+	&.lighter-dark-bg{
+		background-color: #4b4b4b;
+		color: #fff;
+	}
+	
+	&.grey-bg{
+		background-color: #a4a4a4;
+		color: #fff;
+	}
+
+	&.light-green-bg{
+		background-color: #bed21b;
+		color: #fff;
+	}
+
+	&.dark-bg {
+		color: #FFF;
+		background-color: #2d2d2d;
+	}
+
+	.row-same-height{
+		table-layout: fixed;
+		height: 100%;
+
+		.card-desc{
+			height: 100%;
+		}
+
+		.container-card-desc{
+			height: 100%;
+			position: relative;
+		}
+
+		.card-desc-top{
+			padding: 15%;
+		}
+
+		.card-desc-bottom{
+			padding: 15%;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+
+			.card-action{
+				.btn{
+					width: 100%;
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.img-bg {
+	.card-title {
+		color: #FFF;
+	}
+}
+
+.card-image{
+	&.white-bg{
+		background-color: #fff;
+	}
+
+	&.center-image{
+		> img{
+			margin: 0 auto;
+		}
+	}
+
+	figure img {
+		@include img-responsive();
+		width: auto;
+		margin: 30px auto;
+	}
+
+	figcaption{
+		font-weight: $oswald-light;
+		font-size: 24px;
+		padding: 40px 50px;
+		text-transform: uppercase;
+		margin: 0 auto;
+	}
+
+	.product-title{
+		display: block;
+		color: #787878;
+	}
+
+	.price{
+		color: #212121;
+		display: block;
+		margin-top: 5px;
+	}
+}
+
+.card-title{
+	font-size: 48px;
+	font-weight: $oswald-light;
+	line-height: 1;
+	text-transform: uppercase;
+	font-family: $title-font-family;
+
+	.bigger{
+		font-size: 60px;
+	}
+
+	strong{
+		font-weight: $oswald-light;
+	}
+
+	&.card-title-single{
+		padding: 70px 0;
+	}
+}
+
+.card-subtitle{
+	font-size: 20px;
+	line-height: 1;
+	font-family: $content-font-family;
+	display: block;
+	margin-top: 10px;
+	letter-spacing: -0.05em;
+}
+
+.card-desc-overlay{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+.cards{
+	.card-item{
+		width: 49.9%;
+	}
+	.row{
+		margin: 0;
+	}
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+		padding: 0;
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	.card-title{
+		font-size: 2.5vw;
+		line-height: 1;
+
+		.bigger{
+			font-size: 3.125vw;
+		}
+
+		&.card-title-single{
+			padding: 3.65vw 0;
+		}
+	}
+
+	.card-subtitle{
+		font-size: 1.2vw;
+		line-height: 1;
+	}
+
+	.card-image figure img , .img-padded {
+		padding: 2.083vw;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.card-action .btn-shop-now{
+		font-size: 1.24vw;
+		padding: 0.42vw 3.125vw
+	}
+}
+@media (max-width: $screen-sm-min) {
+	.card-title{
+		font-size: 30px;
+		line-height: 1;
+
+		.bigger{
+			font-size: 35px;
+		}
+
+		&.card-title-single{
+			padding: 30px 0;
+		}
+	}
+
+	.card-subtitle{
+		font-size: 18px;
+		line-height: 1;
+	}
+
+
+	.card-image figure img , .img-padded {
+		padding: 20px;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.card-action .btn-shop-now{
+		font-size: 16px;
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+		padding: 10px 40px;
+	}
+}

@@ -1,0 +1,39 @@
+/*===================================================================================*/
+/*  PAGE : FAQ
+/*===================================================================================*/
+
+.vc_toggle.vc_toggle_default {
+	border-bottom: 1px solid #E3E3E3;
+	margin: 0;
+
+	.vc_toggle_title {
+		display: block;
+		padding: dir-values(17px 18px 17px 3px);
+
+		> h4 {
+			color: #484848;
+			font-size: 24px;
+			font-weight: $oswald-normal;
+			line-height: 30px;
+		}
+	}
+
+	&.vc_toggle_active {
+		.vc_toggle_title {
+			border-bottom: 1px solid #E3E3E3;
+		}
+	}
+
+	.vc_toggle_content {
+		padding: 30px 0;
+		border-top: none;
+		margin: 0;
+	}
+
+	.vc_toggle_icon {
+		background: #a7a7a7 !important;
+		border-color: #a7a7a7 !important;
+		#{$end}: 18px !important;
+		#{$start}: auto !important;
+	}
+}

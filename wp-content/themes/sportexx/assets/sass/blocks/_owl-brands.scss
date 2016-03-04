@@ -1,0 +1,48 @@
+/*===================================================================================*/
+/*	OWL BRANDS
+/*===================================================================================*/
+
+.owl-brands{
+	.item{
+		height: 111px;
+		text-align: center;
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+
+		figure{
+			display: table-cell;
+			padding: dir-values(0 20px 0 2px);
+
+			img{
+				width: auto;
+				display: inline;
+				max-width: 100%;
+			}
+		}
+
+		.text-overlay{
+			background: none;
+
+			.info{
+				h4,p{
+					color: inherit;
+				}
+			}
+		}
+
+		img{
+			max-width: 100%;
+			-webkit-transition: all 200ms ease-out;
+		       -moz-transition: all 200ms ease-out;
+		         -o-transition: all 200ms ease-out;
+		            transition: all 200ms ease-out;		
+		}
+
+		&:hover{
+			img{
+				opacity: .1;
+			}
+		}
+	}
+}

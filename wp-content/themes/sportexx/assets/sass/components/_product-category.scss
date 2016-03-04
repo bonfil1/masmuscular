@@ -1,0 +1,48 @@
+/*===================================================================================*/
+/*  PRODUCT CATEGORY
+/*===================================================================================*/
+
+.products {
+	
+	.product-category.product {
+		padding-bottom: 25px;
+		border-bottom-width: 1px;
+		border-top-width: 1px;
+		margin-bottom: -1px;
+
+		> a {
+			display: block;
+		}
+
+		.category-image {
+			height: 305px;
+			text-align: center;
+			display: table;
+			width: 100%;
+
+			.category-image-wrapper {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			img {
+				margin: auto;
+				@include img-responsive();
+				max-height: 100%;
+				width: auto;
+			}
+		}
+
+		h3 {
+			font-size: 18px;
+			margin: dir-values(10px 0 10px 40px);
+
+			mark {
+				font-weight: 400;
+				color: #626262;
+				margin-#{$start}: 10px;
+			}
+		}
+	}
+
+}

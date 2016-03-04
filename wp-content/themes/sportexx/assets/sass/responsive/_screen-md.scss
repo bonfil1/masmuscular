@@ -1,0 +1,92 @@
+/*===================================================================================*/
+/*	RESPONSIVE MD SCREEN
+/*===================================================================================*/
+
+// Between 992px and 1199px
+
+@media ( min-width: $screen-md-min) and ( max-width : $screen-md-max ) {
+
+	//Home 1
+	#modal-newsletter-dark{
+		.modal-dialog{
+			width: 80%;
+		}
+
+		.media-body .form-inline .form-control.txt-email{
+			width: 85%;
+		}
+	}
+
+	.dropdown-menu-pages, .dropdown-menu-shop {
+		width: auto;
+	}
+
+	#owl-posts{
+		.post .post-excerpt{
+			max-height: 125px;
+			overflow: hidden;
+		}
+	}
+
+	.form-newsletter{
+		label{
+			display: none !important;
+		}
+	}
+
+	.form-newsletter .input-email{
+		width: 45%;
+	}
+
+	// Single Product
+	.modal-add-review .modal-dialog .modal-content .modal-body #new_comment_form .remove-button{
+		#{$end}: 0;
+	}
+
+	.product-single {
+		.yith-wcwl-wishlistexistsbrowse.show a, 
+	    .yith-wcwl-wishlistaddedbrowse.show a {
+	    	padding: 10px 28px;
+	    	
+	    }
+	}
+
+	.related.products,
+	.upsells.products {
+		h2{
+			padding: 40px 15px;
+		}
+
+		div.columns-1,
+		div.columns-2, 
+		div.columns-3, 
+		div.columns-4, 
+		div.columns-5, 
+		div.columns-6 {
+			ul.products  {
+				padding: 0 15px;
+			}
+		 }
+	}
+	// Checkout
+
+	.form-checkout .col-fields{
+		padding-#{$end}: 15px;
+	}
+
+	#modal-newsletter-default{
+		.modal-dialog{
+			width: 80%;
+		}
+	}
+
+	#payment {
+		.payment_methods {
+			li {
+				label{
+                    width: 85%;
+				}
+			}
+		}
+	}
+}

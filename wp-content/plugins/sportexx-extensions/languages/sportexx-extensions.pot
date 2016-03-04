@@ -1,0 +1,640 @@
+# Copyright (C) 2016 Transvelo
+# This file is distributed under the same license as the Sportexx Extensions package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sportexx Extensions 1.0.10\n"
+"Report-Msgid-Bugs-To: http://transvelo.freshdesk.com/\n"
+"POT-Creation-Date: 2016-01-22 16:00:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Sportexx POT <sportexx@transvelo.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: modules/js_composer/config/map.php:16
+msgid "Banner"
+msgstr ""
+
+#: modules/js_composer/config/map.php:18
+msgid "Add a banner to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:22 modules/js_composer/config/map.php:150
+#: modules/js_composer/config/map.php:193
+#: modules/js_composer/config/map.php:280
+#: modules/js_composer/config/map.php:339
+#: modules/js_composer/config/map.php:443
+#: modules/js_composer/config/map.php:468
+#: modules/js_composer/config/map.php:537
+#: modules/js_composer/config/map.php:602
+msgid "Sportexx Elements"
+msgstr ""
+
+#: modules/js_composer/config/map.php:26
+msgid "Caption"
+msgstr ""
+
+#: modules/js_composer/config/map.php:28
+msgid "Enter banner caption"
+msgstr ""
+
+#: modules/js_composer/config/map.php:34
+msgid "Height"
+msgstr ""
+
+#: modules/js_composer/config/map.php:36
+msgid "Height of banner in pixels"
+msgstr ""
+
+#: modules/js_composer/config/map.php:41
+msgid "Banner Text Position"
+msgstr ""
+
+#: modules/js_composer/config/map.php:44 modules/js_composer/config/map.php:114
+#: modules/js_composer/config/map.php:169
+#: modules/js_composer/config/map.php:207
+#: modules/js_composer/config/map.php:227
+#: modules/js_composer/config/map.php:247
+#: modules/js_composer/config/map.php:260
+#: modules/js_composer/config/map.php:381
+#: modules/js_composer/config/map.php:393
+msgid "Select"
+msgstr ""
+
+#: modules/js_composer/config/map.php:45 modules/js_composer/config/map.php:382
+msgid "Left"
+msgstr ""
+
+#: modules/js_composer/config/map.php:46 modules/js_composer/config/map.php:383
+msgid "Right"
+msgstr ""
+
+#: modules/js_composer/config/map.php:47 modules/js_composer/config/map.php:384
+msgid "Center"
+msgstr ""
+
+#: modules/js_composer/config/map.php:53
+msgid "Wrap inside a container"
+msgstr ""
+
+#: modules/js_composer/config/map.php:56
+msgid "Yes"
+msgstr ""
+
+#: modules/js_composer/config/map.php:62
+msgid "Banner Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:68
+msgid "Background Position"
+msgstr ""
+
+#: modules/js_composer/config/map.php:70
+msgid ""
+"Background Position of banner image. Applicable only if banner image is "
+"added"
+msgstr ""
+
+#: modules/js_composer/config/map.php:75 modules/js_composer/config/map.php:510
+#: modules/js_composer/config/map.php:554
+#: modules/js_composer/config/map.php:656
+msgid "Background Color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:77
+msgid "Background color of banner"
+msgstr ""
+
+#: modules/js_composer/config/map.php:82
+msgid "Background Size"
+msgstr ""
+
+#: modules/js_composer/config/map.php:84
+msgid "Background size attribute of banner image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:89
+msgid "Background Repeat"
+msgstr ""
+
+#: modules/js_composer/config/map.php:91
+msgid "Background repeat of banner image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:96
+msgid "Color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:98
+msgid "Text color of Banner"
+msgstr ""
+
+#: modules/js_composer/config/map.php:103
+msgid "Banner Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:105
+msgid "Link to banner."
+msgstr ""
+
+#: modules/js_composer/config/map.php:111
+msgid "On Click"
+msgstr ""
+
+#: modules/js_composer/config/map.php:115
+msgid "Open in same page"
+msgstr ""
+
+#: modules/js_composer/config/map.php:116
+msgid "Open in new page"
+msgstr ""
+
+#: modules/js_composer/config/map.php:123
+msgid "Caption Extra Class"
+msgstr ""
+
+#: modules/js_composer/config/map.php:125
+msgid "Add your extra classes here for the caption."
+msgstr ""
+
+#: modules/js_composer/config/map.php:131
+#: modules/js_composer/config/map.php:177
+#: modules/js_composer/config/map.php:320
+#: modules/js_composer/config/map.php:405
+#: modules/js_composer/config/map.php:518
+#: modules/js_composer/config/map.php:586
+#: modules/js_composer/config/map.php:664
+msgid "Extra Class"
+msgstr ""
+
+#: modules/js_composer/config/map.php:133
+#: modules/js_composer/config/map.php:179
+#: modules/js_composer/config/map.php:322
+#: modules/js_composer/config/map.php:407
+#: modules/js_composer/config/map.php:520
+#: modules/js_composer/config/map.php:588
+#: modules/js_composer/config/map.php:666
+msgid "Add your extra classes here."
+msgstr ""
+
+#: modules/js_composer/config/map.php:144
+msgid "Blog Recent Posts Widget"
+msgstr ""
+
+#: modules/js_composer/config/map.php:146
+msgid "Add blog recent posts widget to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:154
+#: modules/js_composer/config/map.php:333
+#: modules/js_composer/config/map.php:343
+msgid "Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:160
+msgid "Limit"
+msgstr ""
+
+#: modules/js_composer/config/map.php:166
+msgid "Display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:170
+msgid "List"
+msgstr ""
+
+#: modules/js_composer/config/map.php:171
+msgid "Grid"
+msgstr ""
+
+#: modules/js_composer/config/map.php:190
+msgid "Product Tabs"
+msgstr ""
+
+#: modules/js_composer/config/map.php:192
+msgid "Add Product Tabs to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:198
+msgid "Tab #1 title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:204
+msgid "Tab #1 Content, Show :"
+msgstr ""
+
+#: modules/js_composer/config/map.php:208
+#: modules/js_composer/config/map.php:228
+#: modules/js_composer/config/map.php:248
+msgid "Featured Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:209
+#: modules/js_composer/config/map.php:229
+#: modules/js_composer/config/map.php:249
+msgid "On Sale Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:210
+#: modules/js_composer/config/map.php:230
+#: modules/js_composer/config/map.php:250
+msgid "Top Rated Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:211
+#: modules/js_composer/config/map.php:231
+#: modules/js_composer/config/map.php:251
+msgid "Recent Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:212
+#: modules/js_composer/config/map.php:232
+#: modules/js_composer/config/map.php:252
+msgid "Best Selling Products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:218
+msgid "Tab #2 title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:224
+msgid "Tab #2 Content, Show :"
+msgstr ""
+
+#: modules/js_composer/config/map.php:238
+msgid "Tab #3 title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:244
+msgid "Tab #3 Content, Show :"
+msgstr ""
+
+#: modules/js_composer/config/map.php:257
+msgid "Style"
+msgstr ""
+
+#: modules/js_composer/config/map.php:261
+msgid "Style 1"
+msgstr ""
+
+#: modules/js_composer/config/map.php:262
+msgid "Style 2"
+msgstr ""
+
+#: modules/js_composer/config/map.php:274
+msgid "Brands Carousel"
+msgstr ""
+
+#: modules/js_composer/config/map.php:276
+msgid "Add a brands carousel to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:284
+msgid "Enter Carousel title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:290
+msgid "Number of Brands to display"
+msgstr ""
+
+#: modules/js_composer/config/map.php:297
+msgid "Show only has products"
+msgstr ""
+
+#: modules/js_composer/config/map.php:298
+msgid "Show only if products are available."
+msgstr ""
+
+#: modules/js_composer/config/map.php:299
+#: modules/js_composer/config/map.php:353
+msgid "Allow"
+msgstr ""
+
+#: modules/js_composer/config/map.php:303
+msgid "Order by"
+msgstr ""
+
+#: modules/js_composer/config/map.php:305
+msgid ""
+" Sort retrieved posts by parameter. Defaults to 'date'. One or more options "
+"can be passed"
+msgstr ""
+
+#: modules/js_composer/config/map.php:312
+msgid "Order"
+msgstr ""
+
+#: modules/js_composer/config/map.php:314
+msgid ""
+"Designates the ascending or descending order of the 'orderby' parameter. "
+"Defaults to 'DESC'."
+msgstr ""
+
+#: modules/js_composer/config/map.php:335
+msgid "Add a Title to your page with Description."
+msgstr ""
+
+#: modules/js_composer/config/map.php:345
+msgid "Enter title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:357
+msgid "Title Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:359
+msgid "Enter link for title or leave empty"
+msgstr ""
+
+#: modules/js_composer/config/map.php:364
+msgid "Description"
+msgstr ""
+
+#: modules/js_composer/config/map.php:366
+msgid "Enter description"
+msgstr ""
+
+#: modules/js_composer/config/map.php:371
+msgid "Description Class"
+msgstr ""
+
+#: modules/js_composer/config/map.php:373
+msgid "Enter description class or leave empty"
+msgstr ""
+
+#: modules/js_composer/config/map.php:378
+msgid "Text Position"
+msgstr ""
+
+#: modules/js_composer/config/map.php:389
+msgid "Heading Size"
+msgstr ""
+
+#: modules/js_composer/config/map.php:391
+msgid "Select title heading size"
+msgstr ""
+
+#: modules/js_composer/config/map.php:394
+msgid "Heading 1"
+msgstr ""
+
+#: modules/js_composer/config/map.php:395
+msgid "Heading 2"
+msgstr ""
+
+#: modules/js_composer/config/map.php:396
+msgid "Heading 3"
+msgstr ""
+
+#: modules/js_composer/config/map.php:397
+msgid "Heading 4"
+msgstr ""
+
+#: modules/js_composer/config/map.php:398
+msgid "Heading 5"
+msgstr ""
+
+#: modules/js_composer/config/map.php:399
+msgid "Heading 6"
+msgstr ""
+
+#: modules/js_composer/config/map.php:418
+msgid "Choose"
+msgstr ""
+
+#: modules/js_composer/config/map.php:437
+msgid "Team Member"
+msgstr ""
+
+#: modules/js_composer/config/map.php:439
+msgid "Add Team Member to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:447
+msgid "Choose a Team Member"
+msgstr ""
+
+#: modules/js_composer/config/map.php:462
+msgid "Product Card"
+msgstr ""
+
+#: modules/js_composer/config/map.php:464
+msgid "Add a Product Card to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:472
+#: modules/js_composer/config/map.php:606
+msgid "Enter Product ID"
+msgstr ""
+
+#: modules/js_composer/config/map.php:479
+#: modules/js_composer/config/map.php:561
+#: modules/js_composer/config/map.php:625
+msgid "Card Title"
+msgstr ""
+
+#: modules/js_composer/config/map.php:481
+#: modules/js_composer/config/map.php:563
+#: modules/js_composer/config/map.php:627
+msgid "The card title will appear at the top of the card"
+msgstr ""
+
+#: modules/js_composer/config/map.php:487
+#: modules/js_composer/config/map.php:569
+#: modules/js_composer/config/map.php:633
+msgid "Button Link"
+msgstr ""
+
+#: modules/js_composer/config/map.php:489
+#: modules/js_composer/config/map.php:571
+#: modules/js_composer/config/map.php:635
+msgid "Link for button."
+msgstr ""
+
+#: modules/js_composer/config/map.php:495
+#: modules/js_composer/config/map.php:577
+#: modules/js_composer/config/map.php:641
+msgid "Button Text"
+msgstr ""
+
+#: modules/js_composer/config/map.php:497
+#: modules/js_composer/config/map.php:579
+#: modules/js_composer/config/map.php:643
+msgid "Text for button."
+msgstr ""
+
+#: modules/js_composer/config/map.php:503
+#: modules/js_composer/config/map.php:547
+#: modules/js_composer/config/map.php:649
+msgid "Text Color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:505
+#: modules/js_composer/config/map.php:651
+msgid "Color of content"
+msgstr ""
+
+#: modules/js_composer/config/map.php:512
+#: modules/js_composer/config/map.php:658
+msgid "Background color of content"
+msgstr ""
+
+#: modules/js_composer/config/map.php:531
+msgid "Image Card"
+msgstr ""
+
+#: modules/js_composer/config/map.php:533
+msgid "Add a Image Card to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:541
+msgid "Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:549
+msgid "Text color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:556
+msgid "Background color"
+msgstr ""
+
+#: modules/js_composer/config/map.php:596
+msgid "Product & Image Card"
+msgstr ""
+
+#: modules/js_composer/config/map.php:598
+msgid "Add a Product-cum-image Card to your page."
+msgstr ""
+
+#: modules/js_composer/config/map.php:613
+msgid "Main Image"
+msgstr ""
+
+#: modules/js_composer/config/map.php:619
+msgid "Side Image"
+msgstr ""
+
+#: modules/js_composer/js_composer.php:97
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:63
+msgid "Add New Block"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:64
+msgid "Edit Block"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:65
+msgid "New Block"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:66
+msgid "Static Blocks"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:67
+msgid "View Block"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:68
+msgid "Search"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:69
+msgid "No blocks found"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:70
+msgid "No blocks found in Trash"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:196
+msgid "Content Options"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:202
+msgid "Content Filters"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:203
+msgid "Apply all WP content filters? This will include plugin added filters."
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:208
+msgid "Defaults (recommended)"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:209
+msgid "All Content Filters"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:213
+msgid "Auto Paragraphs"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:214
+msgid ""
+"Add &lt;p&gt; and &lt;br&gt; tags automatically.<br>(disabling may fix "
+"layout issues)"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:219
+msgid "On"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:220
+msgid "Off"
+msgstr ""
+
+#: modules/theme-shortcodes/sportexx-list-pages-shortcode.php:204
+msgid "#%d (no title)"
+msgstr ""
+
+#: modules/theme-shortcodes/theme-shortcodes.php:97
+msgid "You need to enable YITH Compare plugin for product comparison to work"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sportexx Extensions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://demo.transvelo.in/wp/sportexx/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extensions for Sportexx Wordpress Theme. Supplied as a separate plugin so "
+"that the customer does not find empty shortcodes on changing the theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Transvelo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://transvelo.com/"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:60
+msgctxt "post type general name"
+msgid "Static Content Blocks"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:61
+msgctxt "post type singular name"
+msgid "Static Block"
+msgstr ""
+
+#: modules/post-type-static-block/post-type-static-block.php:62
+msgctxt "block"
+msgid "Add New"
+msgstr ""

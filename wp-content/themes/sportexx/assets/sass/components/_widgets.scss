@@ -1,0 +1,302 @@
+/*===================================================================================*/
+/*  WIDGETS
+/*===================================================================================*/
+
+.widget {
+	margin: dir-values(0 0 3.631em);
+
+	select {
+		max-width: 100%;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+
+	.widget-search .search-submit {
+		@include screen-reader-text();
+	}
+
+	.woocommerce-product-search{
+		padding: 0 30px;
+		margin-top: 20px;
+	}
+
+	.widget_shopping_cart_content{
+		a.dropdown-trigger-cart{
+			padding: 15px 30px 15px 15px;
+		}
+	}
+
+	h3.widget-title {
+		font-size: 24px;
+		line-height: 36px;
+		color: #4b4b4b;
+		padding-bottom: 30px;
+	}
+
+	ul {
+		margin-#{$start}: 0;
+		list-style: none;
+
+		ul {
+			margin-#{$start}: 0;
+			padding-#{$start}: 15px;
+		}
+	}
+}
+
+.widget-area {
+	.widget {
+		a.button {
+			font-weight: 700 !important;
+			color: #fff;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.header-widget-region {
+	@include clearfix;
+
+	.widget {
+		margin: 0;
+		padding: 1em 0;
+		font-size: 14px;
+	}
+}
+
+.widget_search,
+.widget_product_search {
+	form {
+		position: relative;
+
+		input[type=text],
+		input[type=search] {
+			width: 100%;
+		}
+
+		input[type=submit] {
+			@include screen-reader-text();
+		}
+
+		&:after {
+			content: "\f002";
+			font-family: "FontAwesome";
+			position: absolute;
+			top: .618em;
+			#{$end}: 1em;
+			line-height: 1;
+		}
+	}
+}
+
+.widget_search {
+	.search-form > label {
+		display: block;
+	}
+}
+
+.widget_recent_entries,
+.widget_pages,
+.widget_categories,
+.widget_archive,
+.widget_recent_comments,
+.widget_nav_menu,
+.widget_links {
+	ul {
+		margin: 0;
+
+		li {
+			list-style: none;
+		}
+
+		.sub-menu {
+			margin-top: .618em;
+			margin-#{$start}: 0;
+			padding-#{$start}: 15px;
+		}
+	}
+}
+
+.widget-area,
+.footer-widgets {
+	#wp-calendar {
+		th,
+		td {
+			padding: .236em;
+			text-align: center;
+		}
+
+		th{
+			font-weight: normal;
+		}
+	}
+}
+
+.widget_recent_entries,
+.widget_pages {
+	ul {
+		ul.children {
+			margin: dir-values(.618em 0 0 1.387em);
+		}
+	}
+}
+
+.widget-area {
+	.widget {
+		font-size: 14px;
+
+		h1.widget-title {
+			font-size: 1.387em;
+		}
+
+		ul {
+			padding-#{$start}: 0;
+
+			> li {
+				font-family: $title-font-family;
+				text-transform: uppercase;
+				font-weight: 300;
+				font-size: 18px;
+				line-height: 48px;
+				border-top: 1px solid #DFDFDF;
+				color: #9E9E9E;
+
+				&:last-child{
+					border-bottom: 1px solid #DFDFDF;
+				}
+
+				a {
+					color: #9E9E9E;
+
+					@include hoverActiveFocus() {
+						color: darken( #9E9E9E, 20% );
+					}
+				}
+			}
+		}
+	}
+}
+
+.dark-bg {
+	.widget-area {
+		.widget {
+			ul {
+				> li:last-child{
+                  border-bottom: none;
+				}
+			}
+		}
+	}
+}
+
+.widget-area {
+	.widget_rss {
+		.widget-title{
+			position: relative;
+
+			> a:first-child {
+				position: absolute;
+				#{$end}: 0;
+				top: 10px;
+			}
+
+			> a:last-child{
+				color: #4B4B4B;
+			}
+		}
+
+		ul{
+			> li {
+				line-height: 24px;
+				border: none;
+				margin-bottom: 30px;
+
+				.rsswidget {
+					display: block;
+					color: #4B4B4B;
+					margin-bottom: 5px;
+				}
+
+				.rss-date{
+					font-size: 14px;
+					display: block;
+					margin-bottom: 7px;
+				}
+
+				.rssSummary{
+					font-family: $title-font-family;
+					font-size: 14px;
+					text-transform: none;
+					line-height: 20px;
+					padding: 10px 0;
+				}
+
+				cite{
+					font-style: normal;
+					display: block;
+					color: #4B4B4B;
+					font-size: 14px;
+					margin-top: 7px;
+				}
+			}
+		}
+	}
+}
+
+/* Support for Wordpress Popular Posts : https://wordpress.org/plugins/wordpress-popular-posts/ */
+.widget.popular-posts {
+	.wpp-list {
+		> li {
+			border: none;
+			margin-top: 15px;
+			line-height: 24px;
+			@include applyMedia();
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:last-child{
+				border: none;
+			}
+
+			> a:first-child {
+				@include applyMediaLeft();
+			}
+
+			.wpp-thumbnail {
+				@include applyMediaObject();
+			}
+
+			.wpp-post-title {
+				margin-bottom: 3px;
+				font-size: 14px;
+				margin-top: 10px;
+				color: #4B4B4B;
+				display: block;
+
+				&:hover{
+					color: lighten( #4B4B4B, 15% );
+				}
+			}
+
+			.post-stats{
+				font-size: 11px;
+				font-weight: 300;
+				color: #b2b2b2;
+				text-transform: uppercase;
+
+				a{
+					color: #4B4B4B;
+
+					&:hover{
+						color: lighten( #4B4B4B, 15% );
+					}
+				}
+			}
+		}
+	}
+}

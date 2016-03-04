@@ -1,0 +1,73 @@
+/*===================================================================================*/
+/*	TEAM MEMBER
+/*===================================================================================*/
+
+.team-member{
+	text-align: center;
+
+	.team-member-name{
+		color: #5B5050;
+		margin-top: 35px;
+		margin-bottom: 7px;
+		font-size: 24px;
+		font-weight: $oswald-light;
+
+		> a {
+			color: #5B5050;
+		}
+	}
+
+	.team-member-desig{
+		color: #B3B3B3;
+	}
+
+	.team-member-desc{
+		color: #797979;
+		margin-top: 27px;
+		margin-bottom: 42px;
+	}
+	
+	.block-social-icons li > a{
+		height: 38px;
+		width: 38px;
+	}
+
+	.list-social-icons{
+		text-align: center;
+	}
+
+	.image{
+		.img-responsive{
+			margin: 0 auto;
+		}
+	}
+}
+
+.single-team-member {
+	.site-content {
+		header {
+		
+			border-bottom: 3px solid #60646c;
+	  		margin-bottom: 3.631em;
+
+	  		.entry-title {
+				padding-bottom: .618em;
+				font-size: 30px;
+				margin-top: 0;
+				margin-bottom: 0;
+	  		}
+
+	  		.team-member-desig {
+	  			color: #B3B3B3;
+	  			padding-bottom: .618em !important;
+	  			margin-bottom: 3px !important;
+	  			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	  			font-size: 20px;
+	  		}
+		}
+	}
+
+	.wp-post-image{
+		width: 100%;
+	}
+}

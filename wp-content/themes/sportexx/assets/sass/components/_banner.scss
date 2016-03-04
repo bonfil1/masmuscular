@@ -1,0 +1,93 @@
+/*===================================================================================*/
+/* BANNERS
+/*===================================================================================*/
+
+.sportexx-banner-wrapper{
+	display: block;
+
+	h1, h2, h3, h4, h5, h6, a, p {
+		color: inherit;
+	}
+	
+	.heading{
+		font-size: 48px;
+		line-height: 48px;
+		text-transform: uppercase;
+		margin: 0;
+		display: block;
+		font-family: $title-font-family;
+		font-weight: 300;
+	}
+
+	.lead {
+		font-family: $title-font-family;
+		font-weight: 300;
+		text-transform: uppercase;	
+	}
+
+	.banner-text{
+		display: inline-block;
+		vertical-align: middle;
+
+		p{
+			margin: 0; padding: 0;
+		}
+	}
+
+	.btn-action{
+		margin-top: 20px;
+	}
+
+	.sportexx-banner{
+		display: table;
+  		width: 100%;
+
+  		.caption{
+  			display: table-cell;
+  			vertical-align: middle;
+  		}
+	}
+
+	.sportexx-banner-new-fwr-cln{
+		background: #2A2A2A;
+  		height: 430px;
+  		position: relative;
+  		background-repeat: no-repeat;
+  		background-position: $end top;
+
+  		.heading{
+  			color: #FFF;
+  		}
+
+  		.banner-text{
+  			padding: 50px;
+  			margin-#{$start}: 25px;
+  		}
+	}
+
+	.banner-free-shipping{
+		
+		&.height-lg{
+			height: 333px;
+		}
+
+		&.height-sm{
+			height: 198px;
+		}
+
+		.heading{
+			font-size: 43px;
+			font-weight: $oswald-light;
+		}
+	}
+
+	.subtitle{
+		margin-top: 10px;
+		font-size: 24px;
+		display: block;
+		font-weight: $oswald-light;
+		font-family: $title-font-family;
+		text-transform: uppercase;
+		display: block;
+	}
+}

@@ -1,0 +1,123 @@
+/*===================================================================================*/
+/*	SIDEBAR BLOG
+/*===================================================================================*/
+
+.sportexx-right-sidebar .sidebar-blog {
+	padding-#{$start}: 20px;
+}
+
+.sportexx-left-sidebar .sidebar-blog {
+	padding-#{$end}: 20px;
+}
+
+.sidebar-blog{
+	font-family: $title-font-family;
+	text-transform: uppercase;
+
+	.widget{
+		padding-bottom: 15px;
+		margin-bottom: 40px;
+
+		> ul{
+			list-style: none;
+			padding-#{$start}: 0;
+		}
+
+		> h3{
+			font-size: 24px;
+			line-height: 36px;
+			color: #4B4B4B;
+			padding-bottom: 30px;
+		}
+	}
+
+	.form-control{
+		font-family: $content-font-family;
+	}
+
+	.btn-search{
+		background-color: #ECECEC;
+	}
+
+	.widget-list-links{
+		ul{
+			> li{
+				> a{
+					font-size: 18px;
+					line-height: 48px;
+					font-weight: 300;
+					color: #9E9E9E;
+					border-top: 1px solid #DFDFDF;
+					display: block;
+					text-transform: uppercase;
+
+					&:hover{
+						color: #555;
+					}
+				}
+
+				&:last-child{
+					> a{
+						border-bottom: 1px solid #DFDFDF;
+					}
+				}
+			}
+		}
+	}
+
+	.widget-list-posts{
+		.entry-title{
+			margin-bottom: 3px;
+			font-size: 14px;
+			margin-top: 10px;
+
+			&, & > a{
+				color: #4B4B4B;
+			}
+
+			a{
+				&:hover{
+					opacity: 0.7;
+				}
+			}
+		}
+
+		.post-meta{
+			font-size: 11px;
+			font-weight: 300;
+			color: #B2B2B2;
+			text-transform: uppercase;
+
+			a{
+				color: #4B4B4B;
+
+				&:hover{
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+
+	.widget-list-images{
+		ul{
+			margin-#{$start}: -11px;
+
+			> li{
+				display: inline-block;
+				padding: dir-values(0 0 11px 11px);
+				margin: 0;
+
+				> a{
+					display: block;
+					margin: 0;
+				}
+			}
+		}
+
+		img{
+			&:hover{
+				opacity: 0.7;
+			}
+		}
+	}
+}

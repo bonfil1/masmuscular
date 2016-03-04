@@ -1,0 +1,118 @@
+/*===================================================================================*/
+/*  REVIEWS
+/*===================================================================================*/
+
+p.stars {
+	position: relative;
+	font-size: 1em;
+
+	a {
+		display: inline-block;
+		font-weight: 700;
+		margin-#{$end}: 1em;
+		text-indent: -9999px;
+		position: relative;
+		color: $color_body;
+
+		&:hover {
+			color: $color_links;
+		}
+
+		&:last-child {
+			border-#{$end}:0;
+		}
+
+		&.star-1,
+		&.star-2,
+		&.star-3,
+		&.star-4,
+		&.star-5 {
+			&:after {
+				font-family: "FontAwesome";
+				text-indent: 0;
+				position: absolute;
+				top: 0;
+				#{$start}: 0;
+				padding-#{$end}: 1em;
+			}
+
+		}
+
+		&.star-1 {
+			width: 2em;
+
+			&:after {
+				content: "\f006";
+			}
+
+			&:hover:after,
+			&.active:after {
+				content: "\f005"
+			}
+		}
+
+		&.star-2 {
+			width: 3em;
+
+			&:after {
+				content: "\f006\f006";
+			}
+
+			&:hover:after,
+			&.active:after {
+				content: "\f005\f005"
+			}
+		}
+
+		&.star-3 {
+			width: 4em;
+
+			&:after {
+				content: "\f006\f006\f006";
+			}
+
+			&:hover:after,
+			&.active:after {
+				content: "\f005\f005\f005"
+			}
+		}
+
+		&.star-4 {
+			width: 5em;
+
+			&:after {
+				content: "\f006\f006\f006\f006";
+			}
+
+			&:hover:after,
+			&.active:after {
+				content: "\f005\f005\f005\f005"
+			}
+		}
+
+		&.star-5 {
+			width: 6em;
+			border: 0;
+
+			&:after {
+				content: "\f006\f006\f006\f006\f006";
+			}
+
+			&:hover:after,
+			&.active:after {
+				content: "\f005\f005\f005\f005\f005"
+			}
+		}
+	}
+}
+
+p.stars {
+	a {
+		&.star-1,
+		&.star-2,
+		&.star-3,
+		&.star-4 {
+			border-#{$end}:1px solid $color_border;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+/*===================================================================================*/
+/*	PAGE
+/*===================================================================================*/
+
+.page {
+
+	.entry-header {
+		border-bottom: 3px solid #60646c;
+  		margin-bottom: 3.631em;
+
+  		h1 {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			padding-bottom: .618em;
+			margin-bottom: 3px;
+			font-size: 30px;
+  		}
+	}
+
+	mark {
+		text-decoration: none;
+		font-weight: 700;
+		background: transparent;
+	}
+
+	article.page {
+		margin-bottom: 60px;
+	}
+}
+
+.home.page {
+	article.page {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,70 @@
+/*===================================================================================*/
+/*  PAGINATION
+/*===================================================================================*/
+
+.site-main [class*="navigation"] {
+	margin: dir-values(0 0 $vspacing);
+	overflow: hidden;
+
+	.nav-previous {
+		float: $start;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: $end;
+		text-align: $end;
+		width: 50%;
+	}
+
+}
+
+.pagination,
+.woocommerce-pagination {
+	padding: 20px 0;
+	text-align: center;
+	clear: both;
+
+	.page-numbers {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		@include clearfix;
+
+		li {
+			display: inline-block;
+
+			.page-numbers {
+				border-#{$start}-width: 0;
+				display: inline-block;
+				padding: .327em .857em;
+				background-color: #FFF;
+				color: $color_body;
+				border: 2px solid #EEE;
+
+				&.current {
+					font-weight: 700;
+					background-color: #472D2D;
+					border-color: #472D2D;
+					color: #fff;
+				}
+
+				&.dots {
+					background-color: transparent;
+				}
+
+				&.prev,
+				&.next {
+					padding-#{$start}: 1em;
+					padding-#{$end}: 1em;
+				}
+			}
+
+			a.page-numbers {
+				&:hover {
+					background-color: rgba(#472D2D,0.1);
+				}
+			}
+		}
+	}
+}

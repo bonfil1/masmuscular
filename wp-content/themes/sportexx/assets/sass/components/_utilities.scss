@@ -1,0 +1,321 @@
+/*===================================================================================*/
+/*  UTILITIES
+/*===================================================================================*/
+
+.center-block {
+    float: none;
+}
+
+// Padding and Margin
+
+.inner {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.inner-md {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.inner-sm {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.inner-xs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.inner-top {
+    padding-top: 120px;
+}
+
+.inner-top-md {
+    padding-top: 100px;
+}
+
+.inner-top-sm {
+    padding-top: 80px;
+}
+
+.inner-top-xs {
+    padding-top: 40px;
+}
+
+.inner-bottom {
+    padding-bottom: 120px;
+}
+
+.inner-bottom-md {
+    padding-bottom: 100px;
+}
+
+.inner-bottom-sm {
+    padding-bottom: 80px;
+}
+.inner-bottom-xs {
+    padding-bottom: 40px;
+}
+
+.inner-#{$start} {
+    padding-#{$start}: 75px;
+}
+
+.inner-#{$start}-md {
+    padding-#{$start}: 60px;
+}
+
+.inner-#{$start}-sm {
+    padding-#{$start}: 45px;
+}
+
+.inner-#{$start}-xs {
+    padding-#{$start}: 30px;
+}
+
+.inner-#{$end} {
+    padding-#{$end}: 75px;
+}
+
+.inner-#{$end}-md {
+    padding-#{$end}: 60px;
+}
+
+.inner-#{$end}-sm {
+    padding-#{$end}: 45px;
+}
+
+.outer {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.outer-md {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.outer-sm {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.outer-xs {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.outer-top {
+    margin-top: 120px;
+}
+
+.outer-top-md {
+    margin-top: 100px;
+}
+
+.outer-top-sm {
+    margin-top: 80px;
+}
+
+.outer-top-xs {
+    margin-top: 30px;
+}
+
+.outer-bottom {
+    margin-bottom: 120px;
+}
+
+.outer-bottom-md {
+    margin-bottom: 100px;
+}
+
+.outer-bottom-sm {
+    margin-bottom: 80px;
+}
+
+.outer-bottom-xs {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .inner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .inner-md {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .inner-sm {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .inner-xs {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .inner-top {
+        padding-top: 80px;
+    }
+    .inner-top-md {
+        padding-top: 65px;
+    }
+    .inner-top-sm {
+        padding-top: 50px;
+    }
+    .inner-top-xs {
+        padding-top: 40px;
+    }
+    .inner-bottom {
+        padding-bottom: 80px;
+    }
+    .inner-bottom-md {
+        padding-bottom: 65px;
+    }
+    .inner-bottom-sm {
+        padding-bottom: 50px;
+    }
+    .inner-bottom-xs {
+        padding-bottom: 40px;
+    }
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+// Row Same height
+.row-same-height {
+    display: table;
+    width: 100%;
+}
+
+.col-xs-height {
+    display: table-cell;
+    float: none !important;
+}
+
+.col-top {
+    vertical-align:top;
+}
+
+.col-middle {
+    vertical-align:middle;
+}
+
+.col-bottom {
+    vertical-align:bottom;
+}
+
+@media (min-width: 768px) {
+    .col-sm-height {
+        display: table-cell;
+        float: none !important;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-height {
+        display: table-cell;
+        float: none !important;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-height {
+        display: table-cell;
+        float: none !important;
+    }
+}
+
+// Image Header
+
+.img-header{
+    width: 100%;
+}
+
+.form-actions{
+    margin-top: 20px;
+}
+
+.desat {
+    filter: url("../filters.svg#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    &:hover{
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
+}
+
+.row-separator{
+    border-bottom: 1px solid #858585;
+    border-top: 1px solid #858585;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.divi{
+    color: #9F9F9F;
+    padding-#{$start}: 4px;
+}
+
+/**
+ * Accessibility
+ */
+.screen-reader-text {
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    display: block;
+    font-weight: bold;
+    height: auto;
+    #{$start}: 0;
+    line-height: normal;
+    padding: 1em 1.618em;
+    text-decoration: none;
+    top: 0;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar */
+    outline: none;
+}
+
+.has-owl-custom-pagination{
+    position: relative;
+
+    .owl-custom-pagination{
+        position: absolute;
+        top: 20px;
+        #{$end}: 0;
+    }
+}
+
+/**
+ * Alignment
+ */
+.alignleft {
+    display: inline;
+    float: $start;
+    margin-#{$end}: $vspacing;
+}
+.alignright {
+    display: inline;
+    float: $end;
+    margin-#{$start}: $vspacing;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}

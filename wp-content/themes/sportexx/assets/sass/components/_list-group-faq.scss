@@ -1,0 +1,35 @@
+/*===================================================================================*/
+/*  LIST GROUP FAQ
+/*===================================================================================*/
+
+.list-group-faq{
+	list-style: none;
+	padding-#{$start}: 0;
+
+	> li {
+		margin-bottom: 2px;
+
+		> a {
+			background: none repeat scroll 0 0 #EEE;
+			height: 43px;
+			padding-#{$start}: 34px;
+			width: 314px;
+			display: block;
+			font-size: 18px;
+			line-height: 44px;
+			color: #6D6D6D;
+			font-family: $title-font-family;
+			text-transform: uppercase;
+
+			&:hover{
+				background: none repeat scroll 0 0 #D8D8D8;
+			}
+		}
+
+		&.active{
+			> a{
+				background: none repeat scroll 0 0 #D8D8D8;
+			}
+		}
+	}
+}
