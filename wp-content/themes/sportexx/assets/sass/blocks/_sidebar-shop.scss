@@ -1,0 +1,204 @@
+/*===================================================================================*/
+/*	SIDEBAR SHOP
+/*===================================================================================*/
+
+.sportexx-left-sidebar .sidebar-shop {
+	margin-#{$end}: -25px;
+}
+
+.sportexx-right-sidebar .sidebar-shop {
+	margin-#{$start}: -25px;
+}
+
+.product-filters{
+
+	> h3{
+		font-size: 30px;
+		line-height: 30px;
+		font-weight: 300;
+		color: #A3A3A3;
+		margin: 32px 0;
+	}
+
+	.widgets{
+		background-color: #F8F8F8;
+		padding-top: 20px;
+	}
+
+	.widget{
+		.widget-title{
+			font-size: 24px;
+			line-height: 36px;
+			color: #434343;
+			background-color: #F2F2F2;
+			padding: 2px 30px;
+			margin-bottom: 0;
+			margin-top: 20px;
+
+			& + .list-filters{
+				list-style: none;
+				padding: 30px 45px;
+				margin-bottom: 0;
+				@include clearfix;
+
+				> li{
+					line-height: 36px;
+
+					> a{
+						font-weight: $oswald-light;
+						font-size: 18px;
+						color: #4E4E4E;
+						display: block;
+						letter-spacing: .01em;
+						text-transform: uppercase;
+						font-family: $title-font-family;
+						line-height: 32px;
+
+						&:hover{
+							color: #000;
+						}
+					}
+				}
+			}
+		}
+
+		&.widget_archive,
+		&.widget_categories{
+			ul{
+				> li{
+					> a{
+						display: inline-block;
+					}
+				}
+			}
+		}
+
+		select{
+			margin-top: 30px;
+			margin-bottom: 40px;
+		}
+
+		&.widget_search{
+			.search-form{
+				margin-top: 30px;
+			    margin-bottom: 40px;
+			}
+		}
+
+		&.widget_tag_cloud{
+			.tagcloud{
+				margin-bottom: 40px;
+                margin-top: 30px;
+			}
+		}
+
+		&.widget_text{
+			.textwidget{
+				margin-top: 30px;
+			    margin-bottom: 40px;
+			}
+		}
+
+		&.widget_nav_menu{
+			.menu-main-navigation-container{
+				.menu{
+					padding: 30px 45px;
+				}
+			}
+		}
+
+		&.widget_product_search form:after {
+			#{$end}: 3em;
+		}
+
+		&.yith-woocompare-widget{
+			padding-bottom: 50px;
+			
+			.clear-all{
+				margin-left: 40px;
+			}
+
+			.compare.button{
+                margin-right: 23px;
+			}
+		}
+
+		#calendar_wrap{
+			#wp-calendar{
+				margin-bottom: 50px;
+			}
+		}
+
+		&.widget_rss{
+			.widget-title{
+				> a:first-child{
+					right: 30px;
+                    top: 14px;
+				}
+			}
+		}
+	}
+
+	.size-picker{
+		padding: 30 40px;
+		margin-top: 20px;
+	}
+
+	.color-picker{
+		padding: 30 40px;
+		margin-top: 20px;
+		margin-bottom: 0;
+		text-align: center;
+
+		> li {
+			margin-bottom: 8px;
+		}
+	}
+}
+
+.size-picker{
+	list-style: none;
+	padding-#{$start}: 0;
+
+	> li{
+		display: inline-block;
+
+		> a{
+			display: inline-block;
+			border: 1px solid #C8C8C8;
+			width: 27px;
+			height: 27px;
+			font-size: 14px;
+			line-height: 27px;
+			color: #9EA09F;
+			font-family: $content-font-family;
+			text-transform: uppercase;
+			text-align: center;
+			background: #fff;
+			margin-#{$end}: 4px;
+		}
+
+		&.active{
+			> a{
+				background-color: #3E3E3E;
+				color: #E7E7E7;
+			}
+		}
+	}
+}
+
+.color-picker{
+	list-style: none;
+	padding-#{$start}: 0;
+
+	> li{
+		display: inline-block;
+		margin-#{$end}: 8px;
+
+		> a{
+			display: inline-block;
+			width: 27px;
+			height: 27px;
+		}
+	}
+}

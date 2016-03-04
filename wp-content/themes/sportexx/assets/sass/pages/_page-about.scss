@@ -1,0 +1,22 @@
+/*===================================================================================*/
+/*  PAGE : ABOUT
+/*===================================================================================*/
+
+.quote-about-brand{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #404040;
+    margin: 63px auto;
+    padding: 0;
+    text-align: $start;
+    font-family: $title-font-family;
+    text-transform: uppercase;
+    border: none;
+    width: 49%;
+
+    p {
+        line-height: 36px;
+    }
+}

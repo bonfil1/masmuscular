@@ -1,0 +1,44 @@
+/*===================================================================================*/
+/*	OWL RELATED PRODUCTS
+/*===================================================================================*/
+
+.owl-related-products, .owl-upsell-products{
+	text-align: $start;
+
+	.item{
+		&:before{
+			content: none;
+		}
+
+		img{
+			width: auto;
+			margin: 0 auto;
+		}
+	}
+
+	&.products{
+		margin-top: 0;
+		margin-bottom: 0;
+
+		.product {
+			margin-#{$end}: 0;
+
+			.product-image-actions {
+				height: 350px;
+			}
+		}
+	}
+
+	&.has-grid{
+		.product{
+			border-bottom: none;
+			border-top: none;
+			margin-top: 0;
+			margin-#{$start}: 0;
+		}
+	}
+
+	.owl-controls{
+		display: none;
+	}
+}

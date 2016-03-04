@@ -1,0 +1,44 @@
+/*===================================================================================*/
+/*	OWL POSTS GRID
+/*===================================================================================*/
+
+.owl-posts-grid{
+	.post{
+		padding: 0;
+		border-bottom: none;
+
+		.entry-title{
+			padding-top: 0;
+			font-size: 24px;
+			margin-top: 20px;
+		}
+
+		.post-meta{
+			font-size: 16px;
+		}
+
+		.post-excerpt{
+			padding: 20px 0 0 0;
+		}
+	}
+}
+
+/*===================================================================================*/
+/*	OWL POSTS
+/*===================================================================================*/
+
+.owl-posts-list{
+	.post{
+		padding: 0;
+		border-bottom: none;
+
+		.entry-title{
+			padding-top: 0;
+		}
+
+		.post-readmore{
+			position: absolute;
+			bottom: 0;
+		}
+	}
+}

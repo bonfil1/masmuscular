@@ -1,0 +1,90 @@
+/**
+ * Media
+ */
+
+.page-content,
+.entry-content,
+.comment-content {
+	img.wp-smiley {
+		border: none;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 0;
+		display: inline-block;
+	}
+}
+
+/**
+ * Captions
+ */
+.wp-caption {
+	margin-bottom: $vspacing;
+	max-width: 100%;
+
+	img[class*="wp-image-"] {
+		display: block;
+		margin: dir-values(1.2% auto 0);
+		max-width: 98%;
+	}
+	.wp-caption-text {
+		text-align: $start;
+		font-style: italic;
+		border-bottom: 2px solid $color_border;
+		padding: 1em 0;
+	}
+}
+
+/**
+ * Galleries
+ */
+.gallery {
+
+	@extend %clearfix;
+
+	margin-bottom: $vspacing;
+
+	.gallery-item {
+		margin-bottom: $vspacing;
+		padding-top: 0;
+
+		.gallery-icon {
+			a { display: block; }
+
+			img {
+				border: none;
+				height: auto;
+				margin: 0 auto;
+			}
+		}
+
+		.gallery-caption {
+			margin: 0;
+			text-align: center;
+			padding: 1em 0;
+		}
+
+	}
+
+}
+
+.gallery-columns-2 .gallery-item{ @include gallery(6 of 12); }
+.gallery-columns-3 .gallery-item{ @include gallery(4 of 12); }
+.gallery-columns-4 .gallery-item{ @include gallery(3 of 12); }
+.gallery-columns-5 .gallery-item{ @include gallery(2 of 10); }
+.gallery-columns-6 .gallery-item{ @include gallery(2 of 12); }
+.gallery-columns-7 .gallery-item{ @include gallery(2 of 14); }
+.gallery-columns-8 .gallery-item{ @include gallery(2 of 16); }
+.gallery-columns-9 .gallery-item{ @include gallery(3 of 27); }
+.gallery-columns-10 .gallery-item{ @include gallery(2 of 20); }
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption,
+.gallery-columns-10 .gallery-caption{
+	display: none;
+}
+
+.img-responsive {
+	@extend img-responsive();
+}

@@ -1,0 +1,69 @@
+/*===================================================================================*/
+/*  JUMBOTRON
+/*===================================================================================*/
+
+.jumbotron{
+	text-transform: uppercase;
+	font-family: $title-font-family;
+	margin: 0;
+	padding: 120px 0;
+
+	h1{
+		font-size: 60px;
+		line-height: 48px;
+		margin: 0 0 10px 0;
+		font-weight: 300;
+
+		strong{
+			font-weight: 400;
+		}
+	}
+
+	.lead{
+		line-height: 48px;
+		font-weight: 300;
+		font-size: 36px;
+	}
+}
+
+.jumbotron-light{
+	background-color: #FFF;
+	
+	h1{
+		color: #454545;
+	}
+	.lead a, .lead{
+		color: #7E7E7E;
+	}
+}
+
+.jumbotron-inverse{
+	background-color: #242424;
+
+	.lead, h1, .lead a{
+		color: #FFF;
+	}
+}
+
+.jumbotron-shop{
+	padding: 155px 0;
+	background-color: #fff;
+	background-position: center 55%;
+	background-size: cover;
+
+	.caption{
+		padding-#{$start}: 17vw;
+	}
+
+	h1{
+		font-size: 50px;
+		color: #fff;
+		line-height: 48px;
+		font-weight: $oswald-normal;
+
+		span{
+			display: block;
+			font-weight: $oswald-light;
+		}
+	}
+}

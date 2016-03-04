@@ -1,0 +1,96 @@
+/*===================================================================================*/
+/*  WOOCOMMERCE PAGES
+/*===================================================================================*/
+
+/**
+ * My Account
+ */
+
+#customer_login {
+	@include clearfix;
+	@include container();
+
+	.col-1{
+		@include span( 6 of 12 );
+	}
+
+	.col-2{
+		@include span( last 6 of 12 );
+	}
+
+	.col-1, .col-2 {
+		padding-bottom: 1.618em;
+		margin-bottom: 1.618em;
+	}
+}
+
+/** 
+ *  Login Form
+ */
+.login{
+	.form-row:not(.form-row-wide) {
+		@include span( 6 of 12 );
+	}
+
+	.lost_password{
+		@include span( last 6 of 12 );
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+
+	input[type=submit] {
+		@include make-button-large();
+		@include make-button-block();
+		margin-bottom: 20px;
+	}
+}
+
+ul.order_details {
+	@include clearfix;
+	list-style: none;
+	border: 1px solid $color_border;
+	position: relative;
+	margin-#{$start}: 0;
+
+	li {
+		float: $start;
+		padding: 1em 1.618em;
+		border-#{$end}: 1px solid $color_border;
+		font-size: .8em;
+		text-transform: uppercase;
+
+		&:last-child {
+			border-#{$end}: 0;
+		}
+
+		strong {
+			display: block;
+			font-size: 1.387em;
+			text-transform: none;
+		}
+	}
+}
+
+ul.digital-downloads {
+	list-style: none;
+	margin-#{$start}: 0;
+
+	li {
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+		border-bottom: 1px dotted $color_border;
+
+		&:before {
+			font-family: "FontAwesome";
+			content: "\f019";
+			margin-#{$end}: .53em;
+		}
+	}
+}
+
+.my_account_orders {
+	.button {
+		padding: .53em 1em;
+		font-size: .857em;
+	}
+}

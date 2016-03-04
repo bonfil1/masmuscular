@@ -1,0 +1,10 @@
+<wpml-config>
+	<admin-texts>
+		<key name="sportexx_options">
+			<key name="logo_text" />
+			<key name="top_cart_text" />
+			<key name="product_comparison_page" />
+			<key name="footer_credit" />
+		</key>
+	</admin-texts>
+</wpml-config>

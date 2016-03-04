@@ -1,0 +1,68 @@
+/*===================================================================================*/
+/*  PAGE : MYACCOUNT
+/*===================================================================================*/
+
+.page {
+	.order-info, .myaccount_user {
+		padding: dir-values(0 0 1.618em);
+	}
+
+	.order_details, .my_account_orders {
+		margin-bottom: 25px;
+	}
+
+	.my_account_orders {
+		margin-bottom: 45px;
+	}
+
+	.myaccount_user {
+		a, strong {
+			font-weight: 700;
+			color: #4B4B4B;
+		}
+
+		a:hover {
+			color: lighten(#4B4B4B, 10%);
+		}
+	}
+
+	header {
+		@include clearfix();
+	}
+
+	.addresses {
+			
+		.title {
+			
+			h3 {
+				font-weight: 300;
+			}
+
+			.edit {
+				font-weight: 600;
+				color: #4B4B4B;
+			}
+		}
+
+		address {
+			line-height: 30px;
+			font-style: italic;
+		}
+	}
+
+	fieldset legend {
+		font-weight: 700;
+		font-size: inherit;
+		margin-bottom: 0;
+		border-bottom: 0;
+		color: inherit;
+	}
+}
+
+.register {
+	input[type="submit"] {
+		@include make-button-large();
+		@include make-sm-column(8);
+		@include make-xs-column(12);
+	}
+}

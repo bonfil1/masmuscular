@@ -1,0 +1,155 @@
+.yamm {
+	// reset positions 
+	.nav, .collapse, .dropup, .dropdown {
+		position: static;
+	}  
+
+	// propagate menu position under container for fw navbars
+	.container {
+		position: relative;
+	}
+
+	// by default aligns menu to left
+	.dropdown-menu {
+		#{$start}: auto;
+	}
+
+	.no-yamm-content-padding {
+		.yamm-content {
+			padding: 0;
+		}
+	}
+
+	// Content with padding 
+	.yamm-content {
+		padding: 0 15px;
+		margin: 0;
+
+		h1, h2, h3, h4, h5, h6, .widgetitle {
+			font-family: $title-font-family;
+			text-transform: uppercase;
+			font-size: 14px;
+			letter-spacing: 0.025em;
+			font-weight: $oswald-light;
+			margin-bottom: 40px;
+			margin-top: 0;
+		}
+
+		ul, ul.menu {
+			padding-#{$start}: 0;
+			list-style: none;
+			margin-bottom: 30px;
+
+			> li > a{
+				font-size: 13px;
+				line-height: 24px;
+				transition: all 0.4s ease;
+
+				&:hover, &:focus, &:active{
+					text-decoration: none;
+					margin-#{$start}: 4px;
+					transition: all 0.4s ease;
+				}
+			}
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+
+		.wpb_row {
+			margin: 0;
+			display: table;
+			width: 100%;
+			height: 100%;
+		}
+
+		.column, .wpb_column{
+			border-#{$end}: none;
+			padding: 30px;
+			float: none;
+			display: table-cell;
+			height: 100%;
+			vertical-align: top;
+
+			&:last-child{
+				border-#{$end}: none;
+			}
+		}
+
+		.widget {
+			margin: 0;
+		}
+	}
+
+	// Fullwidth menu
+	.dropdown.yamm-fw .dropdown-menu {
+		#{$start}: 0; #{$end}: 0;
+	}
+}
+
+.yamm .yamm-content{
+	.widgettitle, h1, h2, h3, h4, h5, h6{
+		color: #797979;
+	}
+
+	ul > li > a {
+		color: #7B7B7B;
+
+		&:hover, &:focus, &:active{
+			color: #000;
+		}
+	}
+
+	.column, .wpb_column{
+		border-#{$end}: 1px solid #F2F2F2;
+	}
+}
+
+.navbar-nav-inverse{
+	.yamm-content{
+		.widgettitle, h1, h2, h3, h4, h5, h6{
+			color: #F5F5F5;
+		}
+
+		ul > li > a {
+			&:hover, &:focus, &:active{
+				color: #AAA;
+			}
+		}
+	}
+
+	.column, .wpb_column{
+		border-#{$end}: none !important;
+	}
+}
+
+.dark-bg {
+	.navbar-nav-inverse{
+		.yamm-content{
+			.widgettitle, h1, h2, h3, h4, h5, h6{
+				color: #404040;
+			}
+
+			ul > li > a {
+				&:hover, &:focus, &:active{
+					color: #AAA;
+				}
+			}
+		}
+
+		.dropdown-menu {
+			
+			> li > a:hover {
+				color: #aaa;
+			}
+
+			> li.active > a {
+				&, &:hover, &:focus {
+					background-color: #2d2d2d;
+					color: #aaa;
+				}
+			}
+		}
+	}	
+}
