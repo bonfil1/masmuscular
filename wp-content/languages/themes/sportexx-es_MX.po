@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-03-09 21:33-0600\n"
+"PO-Revision-Date: 2016-03-09 21:52-0600\n"
 "Language-Team: Sportexx POT <sportexx@transvelo.com>\n"
 "X-Generator: Poedit 1.8.7\n"
 "Last-Translator: \n"
@@ -62,34 +62,35 @@ msgstr "Opciones de audio"
 #: inc/admin/post-formats/views/format-audio.php:16
 msgid "Enter the paths to your audio files in the fields below"
 msgstr ""
+"Ingrese las rutas de acceso a archivos de audio en los siguientes campos"
 
 #: inc/admin/post-formats/views/format-audio.php:23
 msgid "MP3 File URL"
-msgstr ""
+msgstr "URL del archivo MP3"
 
 #: inc/admin/post-formats/views/format-audio.php:24
 msgid "URL to an .mp3 file"
-msgstr ""
+msgstr "URL a un archivo. mp3"
 
 #: inc/admin/post-formats/views/format-audio.php:34
 msgid "OGA File URL"
-msgstr ""
+msgstr "URL de archivo OGA"
 
 #: inc/admin/post-formats/views/format-audio.php:35
 msgid "URL to an .oga or .ogg file"
-msgstr ""
+msgstr "URL a un archivo .oga o .ogg"
 
 #: inc/admin/post-formats/views/format-audio.php:45
 msgid "Embedded Audio"
-msgstr ""
+msgstr "Audio incrustado"
 
 #: inc/admin/post-formats/views/format-audio.php:46
 msgid "Add embedded audio formats."
-msgstr ""
+msgstr "Añadir formatos de audio embebidos."
 
 #: inc/admin/post-formats/views/format-gallery.php:2
 msgid "Gallery Images"
-msgstr ""
+msgstr "Galería de Imágenes"
 
 #: inc/admin/post-formats/views/format-gallery.php:29
 msgid "Edit Gallery"
@@ -1161,7 +1162,7 @@ msgstr ""
 #: inc/redux-framework/sportexx-options.php:227
 #: templates/sections/sportexx_mini_cart.php:10
 msgid "Cart/"
-msgstr ""
+msgstr "Carrito"
 
 #: inc/redux-framework/sportexx-options.php:231
 msgid "Mini Cart Dropdown Trigger"
@@ -1454,7 +1455,7 @@ msgstr ""
 #: inc/redux-framework/sportexx-options.php:641
 #: inc/woocommerce/template-tags.php:35
 msgid "Quick View"
-msgstr ""
+msgstr "Vista Rapida"
 
 #: inc/redux-framework/sportexx-options.php:657
 msgid "Single Product Page"
